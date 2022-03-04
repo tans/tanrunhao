@@ -1,0 +1,46 @@
+-title=程序员写博客第一步-造轮子
+-short=first
+
+<h1>
+|<title>
+
+<div>
+博客工具很多，jeklly（永远要google一下才记得），hexo，ghost，wp等等。
+大部分程序员会选择静态生成的工具。
+工具选择考虑时主要有以下几点
+1. 文档格式 markdown是首选，大部分程序员对富文本编辑器有生理厌恶。
+2. 如何托管 github是首选，非静态化需要自己维护服务器。
+3. 其他比如可配置，主题定制能力等。
+
+<div>
+markdown真的一直用不习惯。
+1. markdown排版语法并不简单，最后输出的html结构与parser有关，虽然有很多可视化的markdown编辑器很好解决这些问题。
+2. html其实也不差，不过html的可读性很影响输出。
+
+<div>
+能不能有一种格式，保留html强大的样式修改能力，同时提升文字的可读性。
+<div> 
+
+<div>
+htxt是保持html的语法同时，增加了变量标签语法。用起来自我感觉良好，尝试把目前的产品使用文档用htxt写一下试试。
+<div>
+htxt优点如下
+1. no magic, 解析代码不用50行， 自主可控。
+2. 灵活，保留html标签和样式功能，同时增加了变量标签，把图片,链接等外部依赖集中到文档底部
+3. 可读性高，markdown的排版是穿插在文本中的。htxt直接通过块状标签把排版和文本很好分离
+|
+缺点是样式只能支持块级，行内的排版无法解决。比如加粗，斜体这种需求无法很好实现。
+
+<div>
+|
+|<博客地址>
+|<htxt代码地址>
+
+
+
+
+
+-博客地址=<a href="https://github.com/tans/tanrunhao">博客地址</a>
+-htxt代码地址=<a href="https://github.com/tans/htxt">htxt代码地址</a>
+-plaintext=<img src="https://sive.rs/images/plaintext.png" style="width:320px;" />
+

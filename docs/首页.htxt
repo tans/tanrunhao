@@ -1,0 +1,12 @@
+-title=首页
+-short=index
+
+<div>
+|<关于我>
+|<程序员写博客第一步-造轮子>
+|<基于Token的共产主义经济>
+
+
+-关于我=<a href="/about.html">关于我</a>
+-程序员写博客第一步-造轮子=<a href="/first.html">程序员写博客第一步-造轮子</a>
+-基于Token的共产主义经济=<a href="/token-communism.html">基于Token的共产主义经济</a>

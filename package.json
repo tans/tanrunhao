@@ -1,0 +1,11 @@
+{
+  "name": "tanrunhao",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "build.js",
+  "author": "tans",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
